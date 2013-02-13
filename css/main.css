@@ -114,7 +114,6 @@ textarea {
    ========================================================================== */
 
 .container {
-    padding-bottom: 5%;
     font-family: 'Vollkorn', serif;
     background-image: url(http://subtlepatterns.com/patterns/subtle_dots.png);
     color: rgb(58, 58, 58);
@@ -174,6 +173,10 @@ input[type="search"] {
     min-width: 420px;
     margin: 0 auto;
 
+    box-sizing: border-box;
+    padding: 0 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    padding-bottom: 5%;
 }
 
 .content-container {
@@ -278,7 +281,6 @@ input[type="search"] {
     border-top: 4px solid rgba(255, 255, 255, 0.4);
     border-bottom: 4px solid rgba(255, 255, 255, 0.4);
     padding: 0 16%;
-    padding-bottom: 2%;
 }
 
 .small-intro-container h2{
@@ -293,7 +295,7 @@ input[type="search"] {
     box-shadow: 0 0 1px 3px rgb(255, 255, 255), 0 0 1px 6px rgb(92, 80, 59);
     margin-right: 20px;
     background: #5c503b;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 img[alt="Lotus Background"] {
